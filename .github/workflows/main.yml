@@ -2,9 +2,9 @@ name: Build
 
 on:  
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 env:
   Solution_Name: 8
   Solution_FileName: 8.sln
